@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="io.openvidu.openvidu_android.activities.SessionActivity">
+    tools:context="com.hoop.app.activities.SessionActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout2"

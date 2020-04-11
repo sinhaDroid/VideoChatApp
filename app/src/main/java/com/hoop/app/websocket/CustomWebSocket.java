@@ -1,17 +1,17 @@
-package io.openvidu.openvidu_android.websocket;
+package com.hoop.app.websocket;
 
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.util.Log;
 import android.widget.Toast;
 
-import io.openvidu.openvidu_android.activities.SessionActivity;
-import io.openvidu.openvidu_android.constants.JsonConstants;
-import io.openvidu.openvidu_android.observers.CustomSdpObserver;
-import io.openvidu.openvidu_android.openvidu.LocalParticipant;
-import io.openvidu.openvidu_android.openvidu.Participant;
-import io.openvidu.openvidu_android.openvidu.RemoteParticipant;
-import io.openvidu.openvidu_android.openvidu.Session;
+import com.hoop.app.activities.SessionActivity;
+import com.hoop.app.constants.JsonConstants;
+import com.hoop.app.observers.CustomSdpObserver;
+import com.hoop.app.openvidu.LocalParticipant;
+import com.hoop.app.openvidu.Participant;
+import com.hoop.app.openvidu.RemoteParticipant;
+import com.hoop.app.openvidu.Session;
 import com.neovisionaries.ws.client.ThreadType;
 import com.neovisionaries.ws.client.WebSocket;
 import com.neovisionaries.ws.client.WebSocketException;

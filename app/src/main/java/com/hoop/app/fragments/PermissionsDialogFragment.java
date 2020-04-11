@@ -1,4 +1,4 @@
-package io.openvidu.openvidu_android.fragments;
+package com.hoop.app.fragments;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -8,8 +8,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
-import io.openvidu.openvidu_android.R;
-import io.openvidu.openvidu_android.activities.SessionActivity;
+import com.hoop.app.R;
+import com.hoop.app.activities.SessionActivity;
 
 public class PermissionsDialogFragment extends DialogFragment {
 

@@ -1,4 +1,4 @@
-package io.openvidu.openvidu_android.utils;
+package com.hoop.app.utils;
 
 import java.io.IOException;
 import java.security.SecureRandom;

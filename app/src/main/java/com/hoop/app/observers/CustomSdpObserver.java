@@ -1,4 +1,4 @@
-package io.openvidu.openvidu_android.observers;
+package com.hoop.app.observers;
 
 import android.util.Log;
 

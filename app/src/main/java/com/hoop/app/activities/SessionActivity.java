@@ -1,4 +1,4 @@
-package io.openvidu.openvidu_android.activities;
+package com.hoop.app.activities;
 
 import android.Manifest;
 import android.content.pm.ActivityInfo;
@@ -21,6 +21,14 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.DialogFragment;
 
+import com.hoop.app.R;
+import com.hoop.app.fragments.PermissionsDialogFragment;
+import com.hoop.app.openvidu.LocalParticipant;
+import com.hoop.app.openvidu.RemoteParticipant;
+import com.hoop.app.openvidu.Session;
+import com.hoop.app.utils.CustomHttpClient;
+import com.hoop.app.websocket.CustomWebSocket;
+
 import org.jetbrains.annotations.NotNull;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -34,13 +42,6 @@ import java.util.Random;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import io.openvidu.openvidu_android.R;
-import io.openvidu.openvidu_android.fragments.PermissionsDialogFragment;
-import io.openvidu.openvidu_android.openvidu.LocalParticipant;
-import io.openvidu.openvidu_android.openvidu.RemoteParticipant;
-import io.openvidu.openvidu_android.openvidu.Session;
-import io.openvidu.openvidu_android.utils.CustomHttpClient;
-import io.openvidu.openvidu_android.websocket.CustomWebSocket;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.MediaType;

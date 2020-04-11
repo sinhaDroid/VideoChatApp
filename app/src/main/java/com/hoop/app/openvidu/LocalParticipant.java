@@ -1,4 +1,4 @@
-package io.openvidu.openvidu_android.openvidu;
+package com.hoop.app.openvidu;
 
 import android.content.Context;
 import android.os.Build;

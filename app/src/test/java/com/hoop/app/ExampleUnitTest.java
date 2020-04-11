@@ -1,4 +1,4 @@
-package io.openvidu.openvidu_android;
+package com.hoop.app;
 
 import org.junit.Test;
 
